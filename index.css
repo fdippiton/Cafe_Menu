@@ -9,6 +9,10 @@ body {
 
   /* For background image */
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  padding: 20px;
+
+  /* Fonts */
+  font-family: sans-serif;
 }
 
 .menu {
@@ -18,6 +22,18 @@ body {
   /* Center element */
   margin-left: auto;
   margin-right: auto;
+
+  /* Give some space on the sides */
+  /* padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px; */
+
+  /* Same space for all */
+  padding: 20px;
+
+  /* To prevent that in a wide screen the coffee and desserts appears to far apart from the prices */
+  max-width: 500px;
 }
 
 /* To select an element using a class .name-class */
@@ -35,4 +51,27 @@ body {
 .item p {
   /* To inline elements*/
   display: inline-block;
+}
+
+/* To change the font of titles */
+h1, h2 {
+  font-family: Impact, serif;
+}
+
+.established {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
 }
