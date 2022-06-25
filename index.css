@@ -51,6 +51,9 @@ body {
 .item p {
   /* To inline elements*/
   display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
 }
 
 /* To change the font of titles */
@@ -64,6 +67,8 @@ h1, h2 {
 
 h1 {
   font-size: 40px;
+  margin: 0;
+  margin-bottom: 15px;
 }
 
 h2 {
@@ -74,4 +79,46 @@ hr {
   height: 2px;
   background-color: brown;
   border-color: brown;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+a {
+  color: black;
+}
+
+/* When a link is visited */
+a:visited {
+  /* color: grey; */
+  color: black;
+}
+
+/* When the mouse is over the element */
+a:hover {
+  color: brown;
+}
+
+/* When a link is actually being clicked */
+a:active {
+  color: white;
+  color: brown;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
 }
